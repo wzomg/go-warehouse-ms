@@ -1,0 +1,24 @@
+# Binaries
+bin/
+
+# Runtime
+run/*.pid
+run/*.log
+run/
+
+# OS files
+.DS_Store
+
+# IDE files
+.idea/
+.vscode/
+
+# Dependencies
+vendor/
+
+# Go
+go.work
+go.work.sum
+
+# Local environment
+.env

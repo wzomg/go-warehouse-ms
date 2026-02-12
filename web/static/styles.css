@@ -1,0 +1,31 @@
+body {
+  background: #f4f6fb;
+  min-height: 100vh;
+}
+
+.page-center {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 420px;
+  border: none;
+  border-radius: 16px;
+}
+
+.summary-card {
+  padding: 12px 20px;
+  background: #f8fafc;
+  border-radius: 12px;
+  min-width: 160px;
+  text-align: right;
+}
+
+.table > :not(caption) > * > * {
+  padding: 0.85rem;
+}
